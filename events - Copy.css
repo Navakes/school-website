@@ -1,0 +1,81 @@
+*{
+
+  box-sizing: border-box;
+
+margin:0;
+
+}
+
+.navbar{
+  display: flex;
+  background-color:navy;
+}
+.navbar a{
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+   font-size: 25px
+}
+.navbar a:hover{
+
+  background-color: #ddd;
+  color: black;
+  font-size: 30px
+}
+
+.events-container{
+   background-image: url("548474427f9bc_thumb900.jpg");
+  display:flex;
+  justify-content: center;
+padding: 100px
+}
+
+
+ .events{
+background-color: silver;
+   width: 300px;
+ }
+
+ div.img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  background-color: silver;
+}
+
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-al
+}
+
+.events p {
+  text-decoration: overline;
+
+}
+
+.demo{
+
+  background-image: url("download.jfif");
+padding: 100px;
+}
+
+.footer{
+background-color:Navy;
+padding: 10px 10px;
+color: white;
+justify-content: center;
+display: flex;
+
+
+}
